@@ -1,0 +1,12 @@
+{
+  "name": "nodejs-sandbox-for-a-more-experimental-practice-oriented-approach-",
+  "version": "1.0.0",
+  "description": "\"Building a foundation in Node.js with practice projects and code snippets.\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
