@@ -1,1 +1,17 @@
+Node.js is a server-side JavaScript runtime built on Chrome's V8 JavaScript engine, which allows you to run JavaScript code outside of a web browser. Here's how it works:
+
+V8 Engine: Node.js uses Google's V8 engine to execute JavaScript code. This is the same engine used by the Chrome browser to run JavaScript. However, with Node.js, V8 is embedded into a runtime environment tailored for server use, not just for browsers.
+Server-Side: Node.js is primarily designed to run on servers, making it ideal for building server-side applications (like web servers, APIs, and command-line tools).
+Non-Web Environments: Node.js can also be used for non-server applications, like desktop apps (using Electron) or even in Internet of Things (IoT) devices, thanks to its cross-platform support.
+Not for the Browser: While Node.js lets you use JavaScript on the server, you don’t run it in the browser directly. Instead, it enables server-side functionality and communicates with client-side code (in the browser) over HTTP.
+So, in summary: Node.js is a JavaScript runtime that runs on the server, leveraging V8, but it’s not intended for direct use in the web browser.
 1-First open terminal and give a command that is :npm init --y
+2.const http = require("http");
+
+const server = http.createServer((req, res) => {
+  res.end("Hello NODE JS server");
+});
+
+server.listen(6060, function () {
+  console.log(`Server running at 6060`);
+});
